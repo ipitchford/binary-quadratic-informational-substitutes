@@ -1,0 +1,15 @@
+{
+  "input_file": {
+    "original_filename": "Pasted text(20261008-083610).txt",
+    "size_bytes": 20549,
+    "sha256": "89f25ac895f257b9fae4cda88cb3808fda2420d1ffd701d980c86c99fbcf379a",
+    "inspection": "Complete supplied shortlist read; Problem 3 selected binary strong-substitutes target",
+    "modified": false
+  },
+  "primary_source_pdf": {
+    "url": "https://arxiv.org/pdf/1703.08636",
+    "sha256": "d0280897c1680278b7f190f5ac4e342080a76c3f87a026b7388b31643f5cb43a",
+    "inspection": "Definitions 2.1.2-2.2.3, examples, footnote 4, selected structural results",
+    "distribution": "Not redistributed; use the source URL"
+  }
+}

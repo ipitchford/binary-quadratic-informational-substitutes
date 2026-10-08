@@ -1,0 +1,123 @@
+{
+  "search_date": "2026-10-08",
+  "tool": "mcp__codex_apps__search_service_web_run",
+  "boundary": "English-language indexed web, primary paper full text, author pages, arXiv, Dagstuhl LIPIcs, Harvard DASH, EconCS-bench; no exhaustive citation graph or direct paid bibliographic database access",
+  "query_families": [
+    {
+      "stage": "original source and citation neighbourhood",
+      "queries": [
+        "\"informational substitutes\" \"quadratic\"",
+        "\"informational substitutes\" \"binary\"",
+        "\"strong substitutes\" \"concavity\" information",
+        "\"informational substitutes\" characterizations 2025 2026",
+        "\"informational substitutes\" \"strong\" \"characterization\"",
+        "\"Structure and Design of Informational Substitutes\"",
+        "\"Computing Equilibria of Prediction Market Games\"",
+        "\"Computing Equilibria of Prediction Markets via Persuasion\" pdf",
+        "\"Optimizing Bayesian Information Revelation Strategy\" quadratic",
+        "\"Optimizing Bayesian Information Revelation Strategy\" \"binary\"",
+        "\"When are signals complements or substitutes\" pdf"
+      ],
+      "inspected": ["CW2017", "Chen2026", "Anunrojwong2018", "KS2018", "ACWX2020", "BHK2013"],
+      "consequence": "Formal scope fixed; known support reduction and posterior optimisation identified; no exact endpoint classification found."
+    },
+    {
+      "stage": "first rational-function simplification: chord and derivatives",
+      "queries": [
+        "\"informational substitutes\" \"convex hull\"",
+        "\"informational substitutes\" \"concavification\"",
+        "\"informational substitutes\" \"quadratic\" \"binary\"",
+        "\"informational substitutes\" \"chord\"",
+        "\"information\" \"substitutes\" \"covariance\" \"quadratic\"",
+        "\"quadratic scoring\" \"Alice\" \"Bob\" \"binary\" substitutes",
+        "\"strong informational substitutes\" binary",
+        "\"quadratic scoring rule\" \"substitutes\" classification",
+        "\"prediction markets\" \"quadratic\" \"substitutes\" binary signals",
+        "\"informational substitutes\" \"derivative\"",
+        "\"informational substitutes\" \"local\" \"binary\"",
+        "\"informational substitutes\" \"posterior\" \"endpoint\"",
+        "\"binary signals\" \"quadratic scoring rule\" substitutes",
+        "\"substitutes\" \"posterior\" \"chord\"",
+        "\"quadratic scoring\" \"local\" \"truthful\" prediction market"
+      ],
+      "inspected": ["CW2017", "KS2018", "ACWX2020"],
+      "consequence": "Chord optimisation is a routine consequence of known disclosure/persuasion methods; endpoint collapse not located."
+    },
+    {
+      "stage": "quadratic/Brier and probability aliases",
+      "queries": [
+        "\"informational substitutes\" \"Brier\"",
+        "\"information substitutes\" \"garbling\" quadratic",
+        "\"Brier\" \"substitutes\" \"information\"",
+        "\"Brier information\" \"binary\"",
+        "\"chi-square\" \"information\" \"submodularity\" binary",
+        "\"variance reduction\" \"substitutes\" signals",
+        "\"Brier\" \"garbling\"",
+        "information substitutes binary squared loss garbling characterization",
+        "binary experiments substitutes posterior mean squared distance",
+        "\"Brier\" \"diminishing returns\" information",
+        "\"signals\" \"substitutes\" \"squared loss\"",
+        "\"binary\" \"submodularity\" \"chi-squared\"",
+        "\"quadratic information\" \"submodular\"",
+        "\"variance reduction\" \"garbling\"",
+        "\"substitutes\" \"mean-square\" information"
+      ],
+      "inspected": ["AB2019", "CW2017", "NR2022", "FNW2021"],
+      "consequence": "Chi-squared graphical subadditivity is adjacent but has different assumptions; no target-equivalent classification found."
+    },
+    {
+      "stage": "second simplification: row-weighted conditional mean contrasts and reciprocal-affine function",
+      "queries": [
+        "\"Agreement Implies Accuracy for Substitutable Signals\" arxiv",
+        "\"projective substitutes\" \"binary\"",
+        "\"rectangle substitutes\" \"strong\"",
+        "\"substitutes\" \"conditional expectation\" \"binary\" information",
+        "\"substitutes\" \"posterior means\" \"garblings\"",
+        "\"submodularity\" \"binary\" \"mean squared error\"",
+        "\"informational substitutes\" \"four\"",
+        "\"substitutes\" \"squared\" \"conditional means\"",
+        "\"information\" \"substitutes\" \"harmonic\"",
+        "\"substitutes\" \"Brier\" \"binary signals\"",
+        "\"submodularity\" \"conditional variance\" \"binary\"",
+        "\"substitutes\" \"reciprocal\" \"information\"",
+        "\"substitutes\" \"conditional forecast\"",
+        "\"information substitutes\" \"suppressor\"",
+        "\"informational substitutes\" \"squared\" \"difference\"",
+        "\"substitutes\" \"posterior differences\"",
+        "\"information\" \"r_0\" \"r_1\" \"garbling\" \"quadratic\"",
+        "\"submodular\" \"posterior variance\" \"binary signals\""
+      ],
+      "inspected": ["NR2022", "FNW2021", "ACWX2020", "Anunrojwong2018"],
+      "consequence": "Projective and rectangle definitions are not the same quantifier; no equivalent reciprocal-affine endpoint criterion found."
+    },
+    {
+      "stage": "Bayesian persuasion and additive posterior corollary",
+      "queries": [
+        "\"Bayesian persuasion\" \"Proposition 1\" \"Bayes plausibility\"",
+        "site.web.stanford.edu gentzkow BayesianPersuasion.pdf",
+        "site:faculty.chicagobooth.edu kamenica Bayesian persuasion pdf",
+        "\"submodular\" \"suppressor\" Das Kempe",
+        "\"submodularity\" \"regression coefficients\" \"sign\"",
+        "\"substitutes\" \"additive\" \"binary\" information",
+        "\"substitutes\" \"covariance\" \"signals\" quadratic",
+        "\"suppression\" \"two predictors\" \"correlation\" coefficients"
+      ],
+      "inspected": ["ACWX2020", "KG2011-metadata", "DasKempe2018-metadata", "HsuChiang2020-metadata"],
+      "consequence": "Bayes plausibility is established; additive posterior corollary has familiar regression-suppression interpretation but no identical all-garblings statement was found. Adjacent statistics sources were discovery-level and are not relied upon for theorem claims."
+    }
+  ],
+  "primary_sources": [
+    {"id":"CW2017","url":"https://arxiv.org/pdf/1703.08636","citation_ref":"turn1view0","status":"downloaded and inspected","locations":"Definitions 2.1.4, 2.2.3 and footnote 4; Definitions 2.4.1-2.4.3; Proposition 5.2.1; Theorem 5.3.1 and Proposition 5.3.1"},
+    {"id":"Chen2026","url":"https://github.com/aieconcs/econcs-bench/blob/main/informational-substitutes-complements/PROBLEM.md","citation_ref":"turn1view1","status":"full web text inspected","locations":"Problem Description, Research Goal, Known Results, Key References"},
+    {"id":"KS2018","url":"https://drops.dagstuhl.de/storage/00lipics/lipics-vol094-itcs2018/LIPIcs.ITCS.2018.14/LIPIcs.ITCS.2018.14.pdf","citation_ref":"turn18view0","status":"downloaded and inspected","locations":"Lemma 14, Theorem 17, Claim 18, Theorem 9, Figure 2/Appendix B"},
+    {"id":"ACWX2020","url":"https://arxiv.org/pdf/2009.03607","citation_ref":"turn19view0","status":"downloaded and inspected","locations":"Section 5; Theorem 3/Corollary 1; Theorems 4 and 5; conclusion"},
+    {"id":"Anunrojwong2018","url":"https://dash.harvard.edu/server/api/core/bitstreams/7fe62f5f-715a-4282-8191-985cb8bc5cc9/content","citation_ref":"turn15view0","status":"downloaded and inspected","locations":"Definition 2.9 and Chapters 3-4"},
+    {"id":"NR2022","url":"https://arxiv.org/pdf/2111.03153","citation_ref":"turn22view0","status":"primary web PDF inspected","locations":"Definition 2.8 and surrounding projection definitions"},
+    {"id":"FNW2021","url":"https://arxiv.org/pdf/2111.03278","citation_ref":"turn23view0","status":"primary web PDF inspected","locations":"Definition 2.6; Section 5 comparison to strong substitutes"},
+    {"id":"AB2019","url":"https://arxiv.org/pdf/1902.02431","citation_ref":"turn28view1","status":"primary web PDF inspected","locations":"Theorem 1.2 and model definition; Appendix A noted as probability-alias route"},
+    {"id":"BHK2013","url":"https://www.sciencedirect.com/science/article/pii/S0022053112001275","citation_ref":"turn24search0","status":"publisher introductory text and repository metadata inspected; PDF endpoint inaccessible via web tool","locations":"scope over all decision problems; binary characterisation; Proposition 2 located via indexed author-deposited text"},
+    {"id":"KG2011-metadata","url":"https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590","citation_ref":"turn29search2","status":"metadata and indexed Proposition 1 only; underlying splitting used via inspected ACWX2020"}
+  ],
+  "negative_evidence_limit": "No equivalent criterion found within this corpus; this cannot establish historical priority. Search results do not give complete citation coverage or reliable exclusion of unindexed formulas.",
+  "author_enquiry": "Not performed: no user authorisation to contact people."
+}

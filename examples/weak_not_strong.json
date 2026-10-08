@@ -1,0 +1,19 @@
+{
+  "name": "weak_not_strong",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "21/128",
+    "15/128",
+    "5/128",
+    "39/128",
+    "27/128",
+    "1/128",
+    "11/128",
+    "9/128"
+  ]
+}

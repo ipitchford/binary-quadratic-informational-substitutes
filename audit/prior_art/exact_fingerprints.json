@@ -1,0 +1,167 @@
+{
+  "symmetric_noisy_event": {
+    "A": {
+      "row_means": [
+        "1/4",
+        "3/4"
+      ],
+      "delta_squared": "1/4",
+      "contrast_sums": [
+        "4/25",
+        "4/25"
+      ],
+      "margins": [
+        "9/100",
+        "9/100"
+      ]
+    },
+    "B": {
+      "row_means": [
+        "1/4",
+        "3/4"
+      ],
+      "delta_squared": "1/4",
+      "contrast_sums": [
+        "4/25",
+        "4/25"
+      ],
+      "margins": [
+        "9/100",
+        "9/100"
+      ]
+    },
+    "weak_margin": "1/40"
+  },
+  "independent_additive": {
+    "A": {
+      "row_means": [
+        "1/4",
+        "3/4"
+      ],
+      "delta_squared": "1/4",
+      "contrast_sums": [
+        "1/4",
+        "1/4"
+      ],
+      "margins": [
+        "0",
+        "0"
+      ]
+    },
+    "B": {
+      "row_means": [
+        "1/4",
+        "3/4"
+      ],
+      "delta_squared": "1/4",
+      "contrast_sums": [
+        "1/4",
+        "1/4"
+      ],
+      "margins": [
+        "0",
+        "0"
+      ]
+    },
+    "weak_margin": "0"
+  },
+  "xor": {
+    "A": {
+      "row_means": [
+        "1/2",
+        "1/2"
+      ],
+      "delta_squared": "0",
+      "contrast_sums": [
+        "1",
+        "1"
+      ],
+      "margins": [
+        "-1",
+        "-1"
+      ]
+    },
+    "B": {
+      "row_means": [
+        "1/2",
+        "1/2"
+      ],
+      "delta_squared": "0",
+      "contrast_sums": [
+        "1",
+        "1"
+      ],
+      "margins": [
+        "-1",
+        "-1"
+      ]
+    },
+    "weak_margin": "-1/4"
+  },
+  "weak_not_strong": {
+    "A": {
+      "row_means": [
+        "7/16",
+        "5/16"
+      ],
+      "delta_squared": "1/64",
+      "contrast_sums": [
+        "1/64",
+        "1/64"
+      ],
+      "margins": [
+        "0",
+        "0"
+      ]
+    },
+    "B": {
+      "row_means": [
+        "19/32",
+        "5/32"
+      ],
+      "delta_squared": "49/256",
+      "contrast_sums": [
+        "1/4",
+        "1/4"
+      ],
+      "margins": [
+        "-15/256",
+        "-15/256"
+      ]
+    },
+    "weak_margin": "1/1024"
+  },
+  "repeated_signal": {
+    "A": {
+      "row_means": [
+        "1/4",
+        "3/4"
+      ],
+      "delta_squared": "1/4",
+      "contrast_sums": [
+        "0",
+        "0"
+      ],
+      "margins": [
+        "1/4",
+        "1/4"
+      ]
+    },
+    "B": {
+      "row_means": [
+        "1/4",
+        "3/4"
+      ],
+      "delta_squared": "1/4",
+      "contrast_sums": [
+        "0",
+        "0"
+      ],
+      "margins": [
+        "1/4",
+        "1/4"
+      ]
+    },
+    "weak_margin": "1/16"
+  }
+}

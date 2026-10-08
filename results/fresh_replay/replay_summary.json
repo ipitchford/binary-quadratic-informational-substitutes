@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "jobs": [
+    {
+      "script": "polynomial_certificate.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.032
+    },
+    {
+      "script": "audit_checks.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.737
+    },
+    {
+      "script": "audit_exhaustive.py",
+      "exit_code": 0,
+      "elapsed_seconds": 26.693
+    },
+    {
+      "script": "independent_checks.py",
+      "exit_code": 0,
+      "elapsed_seconds": 16.219
+    },
+    {
+      "script": "complements_checks.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.412
+    }
+  ],
+  "stable_record_comparisons": 7,
+  "exact_witness_corpus_byte_match": true,
+  "elapsed_seconds": 52.109,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "universal_proof_machine_formalised": false,
+  "scope": "Replay of declared exact algebra and finite checks; analytic proof is in the manuscript"
+}

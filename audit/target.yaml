@@ -1,0 +1,69 @@
+target_id: binary-quadratic-strong-substitutes
+search_date: 2026-10-08
+intended_contribution_unit: theorem
+claim:
+  exact_statement: |
+    For every joint probability distribution P(E,A,B) on {0,1}^3, including
+    arbitrary zero cells, give necessary and sufficient finite algebraic
+    conditions for strong informational substitutes in Chen and Waggoner
+    (2017), Definition 2.2.3, with expected quadratic score G(p)=p^2.
+    Equivalently, for each orientation (X,Z)=(A,B),(B,A) and every randomised
+    disclosure T generated only from X and randomness independent of (E,A,B),
+    require V(Z,T)-V(T) >= V(X,Z)-V(X), where V(S)=E[P(E=1|S)^2].
+    Include measurable disclosures; never assume a bound on their alphabets
+    when proving sufficiency. Provide explicit finite rational witnesses
+    whenever rational input fails the criterion.
+  exclusions:
+    - Whole-signal submodularity alone is insufficient.
+    - Full submodularity on arbitrary pairs in the continuous lattice is a different stronger definition.
+    - The general problem for arbitrary scoring rules or arbitrarily many signals is not claimed solved.
+    - Historical priority cannot be established by a negative literature search.
+source:
+  originating_reference: Chen (2026), Operational Characterizations of Informational Substitutes and Complements; scoped target in supplied shortlist.
+  url: https://github.com/aieconcs/econcs-bench/blob/main/informational-substitutes-complements/PROBLEM.md
+  foundational_reference: Chen and Waggoner (2017), Informational Substitutes, Definition 2.2.3.
+  foundational_url: https://arxiv.org/abs/1703.08636
+normalisation:
+  indices: E,A,B in {0,1}; posterior table rows A, columns B.
+  scaling: G(p)=p^2; the usual vector quadratic expected score p^2+(1-p)^2 has twice the marginal differences.
+  basis_order: [A0B0, A0B1, A1B0, A1B1]
+  symmetries: [exchange A and B, relabel either signal, replace E by 1-E, positive affine score transformations]
+sequences: []
+generating_functions: []
+fingerprint_note: No natural size-indexed sequence or generating function is present; rational disclosure functions replace those fingerprints.
+finite_instances:
+  - name: duplicate perfect signals
+    joint: {"000": "1/2", "111": "1/2"}
+    status: strong substitutes
+  - name: independent XOR
+    joint: {"000": "1/4", "101": "1/4", "110": "1/4", "011": "1/4"}
+    status: not weak substitutes
+  - name: independent irrelevant bits
+    joint: uniform on all eight cells
+    status: all marginal values zero
+  - name: full-support strict example
+    signal_weights: ["3/8", "1/8", "1/8", "3/8"]
+    event_posteriors: ["1/8", "3/8", "5/8", "7/8"]
+    status: four margins strictly positive
+  - name: weak but not strong
+    signal_weights: ["3/8", "1/8", "1/8", "3/8"]
+    event_posteriors: ["9/16", "1/16", "11/16", "3/16"]
+    status: weak margin 1/1024; two strong margins -15/256
+fingerprints:
+  oriented_gap: q(1-q) * (D^2 - sum_b r_0b*r_1b*d_b^2 / ((1-q)*r_0b+q*r_1b))
+  overlap: b with r_0b*r_1b > 0
+  endpoint_inequalities: D^2 >= sum_overlap r_0b*d_b^2; D^2 >= sum_overlap r_1b*d_b^2
+  binary_polynomial: q(1-q)*((1-q)*K0+q*K1+w^2*q*(1-q))
+  binary_invariant: coefficient of q^2 in the factored quadratic equals -w^2
+aliases:
+  analysis: [reciprocal affine convexity, Jensen gap, endpoint chord dominance]
+  probability: [conditional variance, martingale posterior, Bayes plausible splitting, binary experiments, garbling]
+  combinatorics: [four-cell support bipartite graph, support overlap]
+  mathematical_physics: [orthogonal projection in Hilbert space]
+  statistics_optimisation_ml: [Brier score, squared loss, information acquisition, Bayesian persuasion, forecast aggregation, projective substitutes]
+  economics: [informational substitutes, Alice-Bob-Alice prediction market, full revelation optimality]
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora: [arXiv, primary author pages, Dagstuhl proceedings, EconCS benchmark GitHub, public web index]
+gate_status: CLEAR TO PROVE within the recorded inspected corpus; proof completed in the accompanying manuscript
+historical_priority_status: BOUNDED UNCERTAINTY; no equivalent criterion found in the documented search

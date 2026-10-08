@@ -1,0 +1,38 @@
+[
+  {
+    "release_path": "output/evidence_press_binary_quadratic_v1_0_0/code/exact_checker.py",
+    "reviewed_source_path": "research/adversarial/exact_checker.py",
+    "byte_identical": true,
+    "sha256": "d4ceae0f749fba14107697dd3c247c521ec66c1b5b7161b3cfd00cc4297184f1"
+  },
+  {
+    "release_path": "output/evidence_press_binary_quadratic_v1_0_0/code/audit_checks.py",
+    "reviewed_source_path": "research/adversarial/audit_checks.py",
+    "byte_identical": true,
+    "sha256": "1dac4bde9a5a1c9567d52c5348158262d7f4f90cd0f3068af088d17b353164e6"
+  },
+  {
+    "release_path": "output/evidence_press_binary_quadratic_v1_0_0/code/complements.py",
+    "reviewed_source_path": "research/classification/complements.py",
+    "byte_identical": true,
+    "sha256": "229372f7ecd4c77a89d09d5919deed9c60ab57c59d1bd6013606f6b816df0ea2"
+  },
+  {
+    "release_path": "output/evidence_press_binary_quadratic_v1_0_0/code/complements_checks.py",
+    "reviewed_source_path": "research/classification/complements_checks.py",
+    "byte_identical": true,
+    "sha256": "50c0f9dbb33483196c476a5445adcd07c0e63525eacf061e4e16dde361c0d620"
+  },
+  {
+    "release_path": "output/evidence_press_binary_quadratic_v1_0_0/code/polynomial_certificate.py",
+    "reviewed_source_path": "research/classification/polynomial_certificate.py",
+    "byte_identical": true,
+    "sha256": "e66ffaad80d3484bb9a4e6e0fda63074dc8c3414f74153b17e1d26c445011a5a"
+  },
+  {
+    "release_path": "output/evidence_press_binary_quadratic_v1_0_0/code/independent_checks.py",
+    "reviewed_source_path": "research/referee/independent_checks.py",
+    "byte_identical": true,
+    "sha256": "a013f2c3641f1a3a08505c9b92aa92e251ca72f43bd810643c9c75f762b54934"
+  }
+]

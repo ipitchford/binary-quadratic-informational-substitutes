@@ -1,0 +1,274 @@
+{
+  "project": "binary-quadratic-informational-substitutes",
+  "version": "1.1.0",
+  "date": "2026-10-08",
+  "completion_receipt": "SCOPED_CANDIDATE_WITH_WRITTEN_PROOF",
+  "selected_problem": null,
+  "target": {
+    "event": "binary",
+    "base_signals": "two binary",
+    "joint_distribution": "arbitrary real probabilities; all zero patterns allowed",
+    "score": "V(S)=E[P(E=1|S)^2]",
+    "definition": "Chen-Waggoner2017 Definition2.2.3, non-strict strong substitutes",
+    "disclosures": "all kernels of one base signal using independent randomisation, arbitrary measurable outputs, both orientations"
+  },
+  "result": "Four necessary-and-sufficient scalar inequalities with complete proof; rational input receives exact certificates or explicit rational counter-disclosures.",
+  "gates": {
+    "definition": "PASS",
+    "analytic_proof": "COMPLETE",
+    "zero_support_cases": "COMPLETE",
+    "exact_symbolic_identities": "PASS",
+    "finite_classifier_audit": "PASS",
+    "independent_implementation": "PASS",
+    "independent_ai_referee": "SUPPLIED_REVIEW; IDENTITY_AND_INDEPENDENCE_NOT_ESTABLISHED",
+    "prior_art": "BOUNDED_SEARCH_COMPLETED",
+    "package_replay": "See version-bound external publication receipt",
+    "pdf_visual_review": "See publication/qa.json"
+  },
+  "remaining_mathematical_obligations_for_selected_target": [],
+  "outside_scope": [
+    "Full continuous-lattice submodularity",
+    "All decision problems or arbitrary proper scoring rules",
+    "An arbitrary number of base signals",
+    "Full two-sided arbitrary-finite-signal classification",
+    "Statistical estimation from empirical forecasts"
+  ],
+  "assurance": {
+    "proof_assistant_formalised": false,
+    "external_human_peer_review": false,
+    "independent_ai_agent_review": false,
+    "historical_priority_established": false,
+    "publicly_published": false
+  },
+  "resolved_issues": [
+    "Optional K1 cross-term sign corrected and independently verified",
+    "XOR numerical margins qualified to fair independent bits",
+    "Quartic coefficient wording corrected for w=0",
+    "Rational-witness abstract explicitly conditional on rational input"
+  ],
+  "recordBoundary": "Publication-intake assessment, 8 October 2026; relies on the supplied dated bounded search and current primary-source checks. No backdated discovery record or absolute priority claim.",
+  "contributionMap": [
+    {
+      "claim": "Four endpoint tests for the binary quadratic target",
+      "unit": "statement",
+      "paperLocation": "Theorem 1",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Chen–Waggoner Definition 2.2.3 supplies the target; supplied bounded search found no equivalent four-test criterion.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Conditional-variance posterior reduction and concavity",
+      "unit": "method",
+      "paperLocation": "Theorem 2 and Section 3",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Kong–Schoenebeck finite-message reduction and Anunrojwong et al posterior optimisation are prior machinery; the residual identity is specialised here.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Oriented finite-second-signal and indicator-vector target",
+      "unit": "statement",
+      "paperLocation": "Theorem 2 and Corollary 2.1",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Quadratic conditional variance is classical; this is the oriented extension of the stated criterion, not a full finite-alphabet classification.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Rational two-report counter-disclosures",
+      "unit": "object",
+      "paperLocation": "Section 4",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Finite report reduction is known; explicit failure witnesses and exact raw-score checking are supplied.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Strictness, independent and additive-posterior cases",
+      "unit": "proof",
+      "paperLocation": "Sections 5–6",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Conditional variance and Jensen are established; no separate historical-priority claim for these corollaries.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Strong implies projective, strictly",
+      "unit": "proof",
+      "paperLocation": "Proposition 4",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Neyman–Roughgarden Definition 2.8; implication and separator supplied by the reviewer and attributed.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Endpoint/vertex complements classification",
+      "unit": "statement",
+      "paperLocation": "Appendix A, Proposition 5",
+      "searches": [
+        {
+          "date": "2026-10-08",
+          "query": "informational substitutes binary quadratic; formula/alias and method queries retained in audit/prior_art/prior_art_report.md"
+        }
+      ],
+      "closestPriorWork": "Same disclosure identity and elementary quadratic extremum test; scoped ancillary result.",
+      "verdict": "partially-known-cited"
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "Chen–Waggoner (2017)",
+      "date": "2026-10-08",
+      "readWhat": "Definition 2.2.3 and footnote 4",
+      "evidenceLocator": "https://arxiv.org/pdf/1703.08636",
+      "usedFor": "Exact disclosure quantifiers"
+    },
+    {
+      "citation": "Kong–Schoenebeck (2018)",
+      "date": "2026-10-08",
+      "readWhat": "Lemma 14, Theorem 17 finite reduction and appendix decomposition argument",
+      "evidenceLocator": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol094-itcs2018/LIPIcs.ITCS.2018.14/LIPIcs.ITCS.2018.14.pdf",
+      "usedFor": "Prior reduction, not exact endpoint classification"
+    },
+    {
+      "citation": "Anunrojwong et al.",
+      "date": "2026-10-08",
+      "readWhat": "Section 5 Theorem 4 and Appendix B.2 posterior objective",
+      "evidenceLocator": "https://arxiv.org/pdf/2009.03607",
+      "usedFor": "Prior optimisation and approximation"
+    },
+    {
+      "citation": "Börgers et al.",
+      "date": "2026-10-08",
+      "readWhat": "Author version Proposition 2 and binary assumptions",
+      "evidenceLocator": "https://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper10/micro0518.pdf",
+      "usedFor": "All-decision-problem distinction"
+    },
+    {
+      "citation": "Neyman–Roughgarden",
+      "date": "2026-10-08",
+      "readWhat": "Definition 2.8 and Remark 2.11, projection comparison",
+      "evidenceLocator": "https://arxiv.org/pdf/2111.03153",
+      "usedFor": "Projective comparison"
+    },
+    {
+      "citation": "Frongillo et al.",
+      "date": "2026-10-08",
+      "readWhat": "Definition 2.6 rectangle condition",
+      "evidenceLocator": "https://arxiv.org/pdf/2111.03278",
+      "usedFor": "Different disclosure quantifier"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Projective and strong terminology",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Checked Definition 2.8; included reviewer-derived proof and strict rational separator with all 32 comparisons.",
+      "estimatedCost": "Under two hours, local checks",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Appendix relationship and finite-event extension",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Explicit F=b(1-b)H and reversed endpoints; indicator-vector corollary included.",
+      "estimatedCost": "Under two hours, local checks",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Optimized Python checks",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Propagated -O to subprocesses; explicit exceptions and forged-witness rejection controls.",
+      "estimatedCost": "Under two hours, local checks",
+      "cheap": true,
+      "decision": "CLOSED"
+    },
+    {
+      "limitation": "Arbitrary finite alphabets in both directions",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Existing proof requires a binary disclosed source; no general two-sided concavity theorem provided.",
+      "estimatedCost": "New research or external coordination; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Not established by this scoped candidate; explicitly excluded rather than claimed complete."
+    },
+    {
+      "limitation": "Other scoring rules and full continuous-lattice submodularity",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Read exact source quantifiers; quadratic variance proof does not establish these broader properties.",
+      "estimatedCost": "New research or external coordination; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Not established by this scoped candidate; explicitly excluded rather than claimed complete."
+    },
+    {
+      "limitation": "Empirical estimation and practical welfare effects",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Inputs are exact model probabilities; no statistical experiment or uncertainty model supplied.",
+      "estimatedCost": "New research or external coordination; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Not established by this scoped candidate; explicitly excluded rather than claimed complete."
+    },
+    {
+      "limitation": "External reproduction, specialist review and formal verification",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Reviewed provenance and checker scope; none establishes external independence or a proof-assistant theorem.",
+      "estimatedCost": "New research or external coordination; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Not established by this scoped candidate; explicitly excluded rather than claimed complete."
+    },
+    {
+      "limitation": "Historical priority and original commissioning scope",
+      "closingQuestion": "Can the supplied argument, known result or cheap check close this boundary?",
+      "triedOrSearched": "Bounded prior-art record retained; removed unsupported original-shortlist-completion claim. Absolute priority cannot follow from absence in search.",
+      "estimatedCost": "New research or external coordination; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Not established by this scoped candidate; explicitly excluded rather than claimed complete."
+    }
+  ],
+  "extensionScout": {
+    "by": "Codex publication assessment",
+    "date": "2026-10-08",
+    "proposals": [
+      "Clarify finite-event vector target",
+      "Add reviewer-derived projective implication and separator",
+      "Connect complement residual to main proof",
+      "Harden optimized exact checks"
+    ],
+    "actions": [
+      "Corollary 2.1 added",
+      "Proposition 4 and 32-comparison direct check added",
+      "Appendix identity and endpoint mapping added",
+      "Flags propagated and explicit exceptions retained under -O"
+    ]
+  }
+}

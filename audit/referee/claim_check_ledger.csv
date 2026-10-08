@@ -1,0 +1,21 @@
+claim,location,check,status,remaining_limit
+Quadratic normalization,Manuscript §1,Independently derived S optimum and Brier/vector affine changes,passed,No gap found
+Literature quantifier,Chen–Waggoner Def.2.2.3 and footnote 4; manuscript §1,Primary source definition and subset-pair reduction read,passed,Not full continuous-lattice submodularity
+All measurable disclosures,Theorem 2 §§3.1–3.3,Conditional-expectation derivation with finite source and finite secondary signal,passed,No finite-alphabet approximation used
+Variance loss identity,§3.1,"Independent conditional-variance calculation plus 65,600 direct channel checks",passed,Finite check scope does not prove unrestricted identity
+Endpoint certificate sufficiency,§3.2,Reciprocal-affine identity derived and exact polynomial replay,passed,No gap found
+Endpoint necessity,§3.3,Binary posterior split and exact kernel validity derived,passed,No gap found
+Rational failure channel,§4,"Lipschitz and one-sided bounds checked; 9,236 submitted witnesses independently scored",passed,Rational input; bit complexity distinguished from arithmetic count
+All zero supports and constants,"§§2,5.3",All 15 source-support classes analyzed; all 255 event-atom masks tested,passed,No null posterior assigned
+Finite-B and real/Hilbert target extensions,Theorem 2 and §3 final paragraph,Oriented variance calculation inspected; squared norm interpretation,passed,Reverse orientation not claimed for multivalued source
+Independent and weak=moderate claims,"§§1,6.4","Binary deterministic coarsening argument and orthogonal interaction derivation; 2,304 cases",passed,Fair XOR numerical correction verified
+Additive posterior corollary,Corollary 3,"Both sign directions and correlation-product contradiction derived; 2,025 cases",passed,Full source support retained
+Sufficient source corollary,§6.6,Conditional independence plus monotonicity proof inspected,passed,No gap found on sparse support
+Operational equality and quantitative margins,§5,"Nonnegative identity and interior strictness argument derived; 3,564 checks",passed,Not equated with literal strict-partition definition
+Ancillary complements classification,Appendix A,"Corrected quartic and exact vertex condition derived; replay and 3,616 independently scored witnesses",passed,Earlier K1 sign defect resolved; globally constant source bypass
+Examples and plot,§6; figures/disclosure-residual.png,Exact raw score values rederived and figure inspected,passed,Biased-XOR countercheck prompted fair-bit qualification
+Supplied implementations,exact_checker.py; complements.py,"Entire code read before execution; 13,120 orientation decisions compared",passed,"Ordinary Python assertions and tests, no formal trust certificate"
+Supplied replay counts and outputs,audit_checks.py; complements_checks.py; polynomial_certificate.py,All non-timing fields match; two example JSON files byte-identical,passed,Only elapsed times differ
+Historical priority and full prior-art audit,Manuscript §7; separate prior-art files,Only foundational definition independently inspected in this task,not run,Separate bounded literature review required; no priority conclusion
+Proof-assistant formal verification,No formal artifact supplied,"No compilation, axioms or theorem dependencies to inspect",not applicable,No formal verification claim
+Final packaging/rendered document integrity,Root release assembly,Mathematical figure inspected; final archive and document rendering outside task,not run,Root assembly checks required

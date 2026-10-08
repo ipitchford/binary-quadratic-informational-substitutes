@@ -1,0 +1,19 @@
+{
+  "name": "deterministic_event",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "1/10",
+    "1/5",
+    "3/10",
+    "2/5",
+    "0",
+    "0",
+    "0",
+    "0"
+  ]
+}

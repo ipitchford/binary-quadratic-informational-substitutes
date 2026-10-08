@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "scope": "All nonzero unnormalised count vectors in {0,1,2}^8, both orientations; duplicate normalized tables retained.",
+  "stats": {
+    "input_count_vectors": 6560,
+    "constant_source_orientations": 320,
+    "direct_channel_checks": 65600,
+    "nonconstant_source_orientations": 12800,
+    "overlap_size_1": 4352,
+    "substitute_polynomial_decisions": 12800,
+    "complement_maximum_checks": 12800,
+    "posterior_identity_checks": 64000,
+    "passing_orientations": 3564,
+    "strictness_checks": 3564,
+    "overlap_size_0": 256,
+    "overlap_size_2": 8192,
+    "negative_rational_witnesses": 9236
+  },
+  "distinct_support_masks": 255,
+  "channel_count_per_orientation": 5,
+  "posterior_q_grid": [
+    "0",
+    "1/7",
+    "1/2",
+    "6/7",
+    "1"
+  ],
+  "special_cases": {
+    "resolved_sign_error": {
+      "correct_K1": "27/1280",
+      "old_K1": "-33/1280"
+    },
+    "weak_not_strong": {
+      "weak_margin": "1/1024",
+      "posterior_q": "5/128",
+      "gap": "-256975/281870336",
+      "channel": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "5/123",
+          "118/123"
+        ]
+      ]
+    },
+    "additive_grid_cases": 2025,
+    "independent_grid_cases": 2304
+  },
+  "arithmetic": "fractions.Fraction; no floating point comparisons",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "elapsed_seconds": 16.904158,
+  "script_sha256": "a013f2c3641f1a3a08505c9b92aa92e251ca72f43bd810643c9c75f762b54934",
+  "unrestricted_claim": "Not established by finite enumeration; independent informal derivation is in the review."
+}

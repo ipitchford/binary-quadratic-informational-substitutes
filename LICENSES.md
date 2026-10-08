@@ -1,0 +1,3 @@
+# Rights and provenance
+
+Original prose, diagrams, claims and original data: CC0-1.0, under the publisher's standing instruction. Original code: MIT (LICENSE-CODE). Scholarly creator: Anonymous. AI assistance is disclosed; account ownership does not imply a human research contribution. Supplied reviews and historical audit records are identified as provenance, not external peer review. The manuscript's projective implication and separator were proposed in the supplied review; attribution is retained in REVIEW_RESPONSE.md. New implementation of those checks is original publication code. No third-party full-text articles are redistributed. Bibliographic quotations and citations retain their source attribution.

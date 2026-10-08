@@ -1,0 +1,19 @@
+{
+  "name": "independent_additive",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "1/4",
+    "1/8",
+    "1/8",
+    "0",
+    "0",
+    "1/8",
+    "1/8",
+    "1/4"
+  ]
+}

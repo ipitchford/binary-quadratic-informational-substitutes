@@ -1,0 +1,169 @@
+{
+  "weak_not_strong": {
+    "strong_substitutes": false,
+    "strong_complements": false,
+    "whole_signal_margin": "1/1024",
+    "substitute_margins": {
+      "X": [
+        "0",
+        "0"
+      ],
+      "Y": [
+        "-15/256",
+        "-15/256"
+      ]
+    }
+  },
+  "strict_substitutes": {
+    "strong_substitutes": true,
+    "strong_complements": false,
+    "whole_signal_margin": "13/256",
+    "substitute_margins": {
+      "X": [
+        "9/64",
+        "9/64"
+      ],
+      "Y": [
+        "3/16",
+        "3/16"
+      ]
+    }
+  },
+  "conditionally_independent_failure": {
+    "strong_substitutes": false,
+    "strong_complements": false,
+    "whole_signal_margin": "2/11475",
+    "substitute_margins": {
+      "X": [
+        "241/68850",
+        "-989/585225"
+      ],
+      "Y": [
+        "241/68850",
+        "-989/585225"
+      ]
+    }
+  },
+  "independent_additive": {
+    "strong_substitutes": true,
+    "strong_complements": true,
+    "whole_signal_margin": "0",
+    "substitute_margins": {
+      "X": [
+        "0",
+        "0"
+      ],
+      "Y": [
+        "0",
+        "0"
+      ]
+    }
+  },
+  "xor_fair_bits": {
+    "strong_substitutes": false,
+    "strong_complements": true,
+    "whole_signal_margin": "-1/4",
+    "substitute_margins": {
+      "X": [
+        "-1",
+        "-1"
+      ],
+      "Y": [
+        "-1",
+        "-1"
+      ]
+    }
+  },
+  "duplicate_perfect": {
+    "strong_substitutes": true,
+    "strong_complements": false,
+    "whole_signal_margin": "1/4",
+    "substitute_margins": {
+      "X": [
+        "1",
+        "1"
+      ],
+      "Y": [
+        "1",
+        "1"
+      ]
+    }
+  },
+  "irrelevant_independent": {
+    "strong_substitutes": true,
+    "strong_complements": true,
+    "whole_signal_margin": "0",
+    "substitute_margins": {
+      "X": [
+        "0",
+        "0"
+      ],
+      "Y": [
+        "0",
+        "0"
+      ]
+    }
+  },
+  "missing_signal_cell": {
+    "strong_substitutes": true,
+    "strong_complements": false,
+    "whole_signal_margin": "1/48",
+    "substitute_margins": {
+      "X": [
+        "7/64",
+        "5/64"
+      ],
+      "Y": [
+        "5/64",
+        "7/64"
+      ]
+    }
+  },
+  "constant_first_source": {
+    "strong_substitutes": true,
+    "strong_complements": true,
+    "whole_signal_margin": "0",
+    "substitute_margins": {
+      "X": [],
+      "Y": [
+        "0",
+        "0"
+      ]
+    }
+  },
+  "deterministic_event": {
+    "strong_substitutes": true,
+    "strong_complements": true,
+    "whole_signal_margin": "0",
+    "substitute_margins": {
+      "X": [
+        "0",
+        "0"
+      ],
+      "Y": [
+        "0",
+        "0"
+      ]
+    }
+  },
+  "manual_witness": {
+    "gap": "-11/10240",
+    "values": {
+      "V_Z_other": "213/1280",
+      "V_Z": "337/2048",
+      "V_source_other": "49/256",
+      "V_source": "193/1024"
+    },
+    "source": "Y",
+    "kernel": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1/3",
+        "2/3"
+      ]
+    ]
+  }
+}

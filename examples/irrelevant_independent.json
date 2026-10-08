@@ -1,0 +1,19 @@
+{
+  "name": "irrelevant_independent",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "1/8",
+    "1/8",
+    "1/8",
+    "1/8",
+    "1/8",
+    "1/8",
+    "1/8",
+    "1/8"
+  ]
+}

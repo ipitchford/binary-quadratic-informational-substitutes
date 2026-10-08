@@ -1,0 +1,77 @@
+[
+  {
+    "file": "review.md",
+    "size_bytes": 21511,
+    "sha256": "2044ee192f1fd4c96aa583950cac8fedc51be6b36d1329f9bb92c98d311c53e3"
+  },
+  {
+    "file": "release_review.md",
+    "size_bytes": 16913,
+    "sha256": "69b1428d700034471f64e54d1c4bd1d72908001d8032c5fe79c2054172ae4727"
+  },
+  {
+    "file": "outline.md",
+    "size_bytes": 5361,
+    "sha256": "ab145c93b98f0eb5e2ff8b89d39b69167c074650fda5f779e6519e842ce4fd86"
+  },
+  {
+    "file": "VERIFICATION.md",
+    "size_bytes": 10825,
+    "sha256": "7e84c8fa277a62f407497ac21fc9000c3d698c3858a2144fea9e4c3f44e7542a"
+  },
+  {
+    "file": "COMPLETION.md",
+    "size_bytes": 2790,
+    "sha256": "d4f4ae40d597221c59293b32c72717417fe71cf106c1faed1ad0866e60203f05"
+  },
+  {
+    "file": "rubric_scores.json",
+    "size_bytes": 1368,
+    "sha256": "73f42a20df71821a0a387d3c3a11832619d98e92b03955262440748c4e6816b3"
+  },
+  {
+    "file": "claim_check_ledger.csv",
+    "size_bytes": 3552,
+    "sha256": "ffc7653209137d8218338a9b0ffed982a0ba52b0e6400f10adcfd92a56190f2b"
+  },
+  {
+    "file": "independent_checks.py",
+    "size_bytes": 12332,
+    "sha256": "a013f2c3641f1a3a08505c9b92aa92e251ca72f43bd810643c9c75f762b54934"
+  },
+  {
+    "file": "independent_results.json",
+    "size_bytes": 1664,
+    "sha256": "56ceb629747f462260a063480b99b8d93b40d87c35baba4cf8aa4ec05b72b1b1"
+  },
+  {
+    "file": "release_checks.py",
+    "size_bytes": 6049,
+    "sha256": "8e335b0bcab9f0aa898507a5a6b3e11fcd320f90cda127a02194a451b97377bf"
+  },
+  {
+    "file": "release_check_results.json",
+    "size_bytes": 1707,
+    "sha256": "2b3a2743a83dee7b93beeea4af3d1a1136644ac4ee540c0d5d535de40126e721"
+  },
+  {
+    "file": "inspected_manifest.json",
+    "size_bytes": 1362,
+    "sha256": "470d893568d9e66deba363d80725a5b8f96bc4c94c274443174970a04ee79712"
+  },
+  {
+    "file": "release_inspected_manifest.json",
+    "size_bytes": 2337,
+    "sha256": "2f036351890340aa62b64749d18c683ffac78a2b713b88fcd4b67a6a03e4aa1b"
+  },
+  {
+    "file": "final_manuscript_manifest.json",
+    "size_bytes": 658,
+    "sha256": "f5f88272ba3298509d147ab634133b95d712f40943d6a73ca133a28ed1b5eb8f"
+  },
+  {
+    "file": "release_code_identity.json",
+    "size_bytes": 1708,
+    "sha256": "fc4884ac57df83fc44cf543623a946a1958eb23a421c191c9db2f8ee6c28d9de"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "strict_substitutes",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "21/64",
+    "5/64",
+    "3/64",
+    "3/64",
+    "3/64",
+    "3/64",
+    "5/64",
+    "21/64"
+  ]
+}

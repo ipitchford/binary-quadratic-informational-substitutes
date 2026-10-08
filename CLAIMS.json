@@ -1,0 +1,137 @@
+{
+  "version": "1.1.0",
+  "date": "2026-10-08",
+  "claims": [
+    {
+      "id": "T1",
+      "claim": "Four weighted-square inequalities are necessary and sufficient for strong substitutes for binary E,A,B under quadratic scoring, with arbitrary support.",
+      "type": "theorem",
+      "status": "complete_informal_proof",
+      "proof": "manuscript sections 2-3",
+      "checks": [
+        "independent derivation and referee review",
+        "all 255 supports in 6,560 count vectors",
+        "9,236 direct negative failure witnesses"
+      ],
+      "limits": [
+        "Fixed quadratic scoring",
+        "Chen-Waggoner (2017), Definition 2.2.3",
+        "Not full continuous-lattice submodularity"
+      ]
+    },
+    {
+      "id": "T2",
+      "claim": "Two inequalities classify the direction garbling a binary source and adding an arbitrary finite second signal for square-integrable real targets.",
+      "type": "theorem",
+      "status": "complete_informal_proof",
+      "proof": "manuscript section 3",
+      "checks": [
+        "conditional-variance proof",
+        "finite vector-target audit: 105 cases, 1,785 direct scores, 90 failure witnesses"
+      ],
+      "limits": [
+        "The finite-second-signal extension is one-directional"
+      ]
+    },
+    {
+      "id": "C1",
+      "claim": "A failed rational-input substitutes test produces a finite rational two-report negative-gap witness.",
+      "type": "constructive_certificate",
+      "status": "proved_and_executable",
+      "proof": "manuscript sections 3.3 and 4",
+      "checks": [
+        "9,236 constructed witnesses",
+        "independent raw-mass verifier",
+        "complete witness corpus saved"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "Equality conditions and quantitative disclosure-gap bounds follow from the exact nonnegative decomposition.",
+      "type": "corollary",
+      "status": "complete_informal_proof",
+      "proof": "manuscript section 5",
+      "checks": [
+        "3,564 operational strictness checks"
+      ],
+      "limits": [
+        "Operational retained-source-uncertainty strictness, not syntactic strict-lattice terminology"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "For independent nondegenerate binary sources, strong substitutes iff the posterior has zero interaction.",
+      "type": "corollary",
+      "status": "complete_informal_proof",
+      "proof": "manuscript section 6.4",
+      "checks": [
+        "2,304 independent-source grid cases"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "For full signal support and additive posterior kappa+uA+vB, strong substitutes iff u*v*Cov(A,B)>=0.",
+      "type": "corollary",
+      "status": "complete_informal_proof",
+      "proof": "manuscript section 6.5",
+      "checks": [
+        "2,025 additive-posterior grid cases"
+      ]
+    },
+    {
+      "id": "E1",
+      "claim": "A full-support weak/moderate-substitutes model with whole margin 1/1024 has an explicit disclosure gap -11/10240.",
+      "type": "exact_example",
+      "status": "directly_verified",
+      "proof": "manuscript section 6.2",
+      "checks": [
+        "results/release_examples.json",
+        "examples/short_disclosure_witness.json"
+      ]
+    },
+    {
+      "id": "T3",
+      "claim": "Strong complements in the same binary model admit two endpoint tests and at most one quadratic-vertex test in each direction.",
+      "type": "ancillary_theorem",
+      "status": "complete_informal_proof_and_executable",
+      "proof": "manuscript Appendix A",
+      "checks": [
+        "zero polynomial residual",
+        "15,250 direct finite comparisons",
+        "independent cross-check of 3,616 returned complement failures"
+      ],
+      "limits": [
+        "Correct K1 has plus2*c1*w"
+      ]
+    },
+    {
+      "id": "N1",
+      "claim": "An equivalent endpoint criterion was not found in the recorded bounded prior-art search.",
+      "type": "negative_search_evidence",
+      "status": "bounded",
+      "proof": "audit/prior_art/prior_art_report.md",
+      "checks": [
+        "67 recorded queries in 5 families",
+        "formula and alias reruns"
+      ],
+      "limits": [
+        "Not a historical-priority proof",
+        "English-language indexed corpus",
+        "No exhaustive paid bibliographic database or author enquiry"
+      ]
+    },
+    {
+      "id": "P4",
+      "claim": "Strong substitutes imply projective substitutes in this binary quadratic model, strictly; the displayed rational separator passes all 32 projective comparisons.",
+      "type": "proposition",
+      "status": "written_proof_and_exact_example",
+      "proof": "manuscript Section 7.2",
+      "checks": [
+        "code/revision_checks.py"
+      ],
+      "limits": [
+        "Reviewer-derived addition; not universal scoring-rule equivalence."
+      ]
+    }
+  ]
+}

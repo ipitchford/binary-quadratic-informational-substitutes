@@ -1,0 +1,64 @@
+{
+  "accepted_orientation_raw_kernel_comparisons": 62144,
+  "accepted_orientations": 3884,
+  "arithmetic": "fractions.Fraction; no floating-point mathematical decisions",
+  "binary_kernel_grid": [
+    "0",
+    "1/3",
+    "2/3",
+    "1"
+  ],
+  "command": "python audit_exhaustive.py",
+  "corpus": "All eight-entry count tables in {0,1,2}^8 except the zero table, normalised by their sum",
+  "degenerate_source_orientations": 320,
+  "different_nonempty_supports": 255,
+  "elapsed_seconds": 26.129,
+  "finished_utc": "2026-10-08T08:56:11.359460+00:00",
+  "finite_alphabet_extension": {
+    "binary_source_outcomes": 2,
+    "cases": 105,
+    "constructed_negative_witnesses": 90,
+    "constructed_passing_cases": 5,
+    "event_sizes": [
+      2,
+      3,
+      4
+    ],
+    "failing_orientations": 90,
+    "other_signal_sizes": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "passing_orientations": 15,
+    "random_cases": 100,
+    "raw_kernel_comparisons": 1785,
+    "score": "sum_e posterior(e)^2",
+    "seed": 20261008,
+    "status": "PASS"
+  },
+  "full_proof_claim": false,
+  "implementation": "CPython",
+  "nondegenerate_orientations_by_overlap_size": {
+    "0": 256,
+    "1": 4352,
+    "2": 8192
+  },
+  "orientations_checked": 13120,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "rejected_orientation_direct_negative_witnesses": 9236,
+  "rejected_orientations": 9236,
+  "scope_note": "Sanity checks of independently evaluated raw-score gaps; the universal result rests on the analytic proof",
+  "sha256": {
+    "audit_exhaustive.py": "0743fb0dd5d35f70544d685f9155e415e01a1975b732a25cb1d5c299823a2405",
+    "exact_checker.py": "d4ceae0f749fba14107697dd3c247c521ec66c1b5b7161b3cfd00cc4297184f1",
+    "exhaustive_witnesses.jsonl": "ee10a07cceb6b8df50c83aa8199bb0945ba41c4127dcf257cd522fd241f27163",
+    "finite_alphabet_audit.py": "817e8c31d862dd0a8f55c54cca13ef86b12f50d5434b76a32c1c95ca44d6b0cb"
+  },
+  "started_utc": "2026-10-08T08:55:45.230508+00:00",
+  "status": "PASS",
+  "strong_substitute_tables": 1870,
+  "tables_checked": 6560
+}

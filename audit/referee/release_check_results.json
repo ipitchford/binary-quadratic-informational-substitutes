@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "statistics": {
+    "orientation_decisions_checked": 13120,
+    "tables_checked": 6560,
+    "substitute_witnesses_checked_by_independent_score": 9236,
+    "complement_witnesses_checked_by_independent_score": 3616
+  },
+  "special_checks": {
+    "conditional_independence_example_weak_gap": "2/11475",
+    "manual_separation_witness_gap": "-11/10240",
+    "biased_XOR_correction_check": {
+      "a": "1/4",
+      "b": "1/3",
+      "A_margins": "-8/9",
+      "B_margins": "-3/4",
+      "weak_margin": "-1/6"
+    }
+  },
+  "submitted_replay_reproduction": [
+    {
+      "script": "audit_checks.py",
+      "matching_non_timing_fields": true,
+      "exit_status": 0
+    },
+    {
+      "script": "complements_checks.py",
+      "matching_non_timing_fields": true,
+      "exit_status": 0
+    },
+    {
+      "script": "polynomial_certificate.py",
+      "matching_non_timing_fields": true,
+      "exit_status": 0
+    },
+    {
+      "file": "examples.json",
+      "byte_identical": true,
+      "sha256": "946b38cb1b3f6b424613b883ecee2fb1af514c71d2de1138c5a0310b1800e1a4"
+    },
+    {
+      "file": "complements_examples.json",
+      "byte_identical": true,
+      "sha256": "ed7f42f76d37503ff8ec975bb683926a0ae1a77a5210a4f189d2609a95c82ba3"
+    }
+  ],
+  "elapsed_seconds": 17.781884,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "arithmetic": "fractions.Fraction; no floating point decisions",
+  "script_sha256": "8e335b0bcab9f0aa898507a5a6b3e11fcd320f90cda127a02194a451b97377bf",
+  "scope": "Finite cross-check of preserved submitted implementation copies, including all 255 support masks. Independent direct score arithmetic checks every returned failure witness."
+}

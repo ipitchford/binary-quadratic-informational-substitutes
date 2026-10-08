@@ -1,0 +1,27 @@
+{
+  "title": "Four tests for binary informational substitutes",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "description": "<p>Unrefereed candidate, version 1.1.0. Four necessary-and-sufficient weighted-square tests classify binary informational substitutes under the quadratic score and Chen–Waggoner March 2017 Definition 2.2.3. Includes zero-support cases, rational failure disclosures, an oriented finite-signal extension, strong-complements tests, and a reviewer-derived strict comparison with projective substitutes. Universal written proof and internal exact finite replay are distinct; no external peer review, independent reproduction, formal verification or historical priority is claimed.</p>",
+  "version": "1.1.0",
+  "publication_date": "2026-10-08",
+  "license": "cc-zero",
+  "keywords": [
+    "informational substitutes",
+    "quadratic scoring",
+    "Bayesian information",
+    "exact rational certificates"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/binary-quadratic-informational-substitutes",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

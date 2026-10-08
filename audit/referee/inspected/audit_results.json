@@ -1,0 +1,14 @@
+{
+  "arithmetic": "Python fractions.Fraction only; no floating-point decisions",
+  "binary_kernel_comparisons": 12750,
+  "constructed_exact_negative_witnesses": 212,
+  "elapsed_seconds": 4.095,
+  "full_proof_claim": false,
+  "multi_output_kernel_comparisons": 48,
+  "named_examples_checked": 8,
+  "nonempty_joint_supports_checked": 255,
+  "orientations_checked": 510,
+  "scope": "Independent exact raw-score checks against the proved classifier",
+  "status": "PASS",
+  "strong_substitute_uniform_supports": 149
+}

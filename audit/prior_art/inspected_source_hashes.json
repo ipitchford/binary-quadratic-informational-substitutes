@@ -1,0 +1,18 @@
+{
+  "anunrojwong_2020.pdf": {
+    "bytes": 292555,
+    "sha256": "fb00edd98cbf66de2e901372a88bb4ab7305b82c3f817331687cf34de234a773"
+  },
+  "anunrojwong_thesis_2018.pdf": {
+    "bytes": 467034,
+    "sha256": "069ad9a5d6313fd93782adc8f32b0cd9c551714f6419a63f2535b1f4bb7821af"
+  },
+  "chen_waggoner_2017.pdf": {
+    "bytes": 1151424,
+    "sha256": "d0280897c1680278b7f190f5ac4e342080a76c3f87a026b7388b31643f5cb43a"
+  },
+  "kong_schoenebeck_2018.pdf": {
+    "bytes": 3228471,
+    "sha256": "ea597d6f4552247d5eb8f6bdd8df4dad9fedbb616c50d9b86365e8ade7e4bd57"
+  }
+}

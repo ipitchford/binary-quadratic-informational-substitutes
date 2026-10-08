@@ -1,0 +1,19 @@
+{
+  "name": "duplicate_perfect",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "1/2",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/2"
+  ]
+}

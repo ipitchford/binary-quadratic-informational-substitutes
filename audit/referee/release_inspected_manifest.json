@@ -1,0 +1,68 @@
+[
+  {
+    "path": "output/evidence_press_binary_quadratic_v1_0_0/manuscript/binary-quadratic-informational-substitutes.md",
+    "size_bytes": 25539,
+    "sha256": "abb679f4188372bb5a9ee39c4e7407ab15129642b8ca3be49056d0b8e3c9fa91",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/adversarial/exact_checker.py",
+    "size_bytes": 9645,
+    "sha256": "d4ceae0f749fba14107697dd3c247c521ec66c1b5b7161b3cfd00cc4297184f1",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/adversarial/audit_checks.py",
+    "size_bytes": 6397,
+    "sha256": "1dac4bde9a5a1c9567d52c5348158262d7f4f90cd0f3068af088d17b353164e6",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/adversarial/audit_results.json",
+    "size_bytes": 513,
+    "sha256": "7f1270a2fe234b3c904f1463ad480d9838f604d68120a4c6e87e9a187790e563",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/adversarial/examples.json",
+    "size_bytes": 18652,
+    "sha256": "946b38cb1b3f6b424613b883ecee2fb1af514c71d2de1138c5a0310b1800e1a4",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/classification/complements.py",
+    "size_bytes": 7394,
+    "sha256": "229372f7ecd4c77a89d09d5919deed9c60ab57c59d1bd6013606f6b816df0ea2",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/classification/complements_checks.py",
+    "size_bytes": 5966,
+    "sha256": "50c0f9dbb33483196c476a5445adcd07c0e63525eacf061e4e16dde361c0d620",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/classification/complements_check_results.json",
+    "size_bytes": 952,
+    "sha256": "870f0ede472223d5462913eb209da650a9ee6ce0f244624e395590ce0716ac49",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/classification/complements_examples.json",
+    "size_bytes": 16881,
+    "sha256": "ed7f42f76d37503ff8ec975bb683926a0ae1a77a5210a4f189d2609a95c82ba3",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/classification/polynomial_certificate.py",
+    "size_bytes": 3778,
+    "sha256": "e66ffaad80d3484bb9a4e6e0fda63074dc8c3414f74153b17e1d26c445011a5a",
+    "inspection": "entire file"
+  },
+  {
+    "path": "research/classification/polynomial_certificate_result.json",
+    "size_bytes": 314,
+    "sha256": "e0f402d347bcedcc3aeed9694ba86f346aa5cdd765831fd07f62200d43155eea",
+    "inspection": "entire file"
+  }
+]

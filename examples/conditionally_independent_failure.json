@@ -1,0 +1,19 @@
+{
+  "name": "conditionally_independent_failure",
+  "order": "E,X,Y lexicographic",
+  "paper_labels": {
+    "X": "A",
+    "Y": "B",
+    "Z": "T"
+  },
+  "probabilities": [
+    "16/45",
+    "8/45",
+    "8/45",
+    "4/45",
+    "1/45",
+    "2/45",
+    "2/45",
+    "4/45"
+  ]
+}

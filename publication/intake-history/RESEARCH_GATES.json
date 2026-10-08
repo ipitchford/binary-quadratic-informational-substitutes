@@ -1,0 +1,49 @@
+{
+  "project": "binary-quadratic-informational-substitutes",
+  "version": "1.0.0",
+  "date": "2026-10-08",
+  "completion_receipt": "SCOPED_TARGET_COMPLETED",
+  "selected_problem": 3,
+  "target": {
+    "event": "binary",
+    "base_signals": "two binary",
+    "joint_distribution": "arbitrary real probabilities; all zero patterns allowed",
+    "score": "V(S)=E[P(E=1|S)^2]",
+    "definition": "Chen-Waggoner2017 Definition2.2.3, non-strict strong substitutes",
+    "disclosures": "all kernels of one base signal using independent randomisation, arbitrary measurable outputs, both orientations"
+  },
+  "result": "Four necessary-and-sufficient scalar inequalities with complete proof; rational input receives exact certificates or explicit rational counter-disclosures.",
+  "gates": {
+    "definition": "PASS",
+    "analytic_proof": "COMPLETE",
+    "zero_support_cases": "COMPLETE",
+    "exact_symbolic_identities": "PASS",
+    "finite_classifier_audit": "PASS",
+    "independent_implementation": "PASS",
+    "independent_ai_referee": "PASS_WITH_CORRECTIONS_RESOLVED",
+    "prior_art": "BOUNDED_SEARCH_COMPLETED",
+    "package_replay": "PASS; 52.109 seconds, seven stable result comparisons, exact witness corpus reproduced byte-for-byte",
+    "pdf_visual_review": "PASS; eleven A4 pages rendered and inspected"
+  },
+  "remaining_mathematical_obligations_for_selected_target": [],
+  "outside_scope": [
+    "Full continuous-lattice submodularity",
+    "All decision problems or arbitrary proper scoring rules",
+    "An arbitrary number of base signals",
+    "Full two-sided arbitrary-finite-signal classification",
+    "Statistical estimation from empirical forecasts"
+  ],
+  "assurance": {
+    "proof_assistant_formalised": false,
+    "external_human_peer_review": false,
+    "independent_ai_agent_review": true,
+    "historical_priority_established": false,
+    "publicly_published": false
+  },
+  "resolved_issues": [
+    "Optional K1 cross-term sign corrected and independently verified",
+    "XOR numerical margins qualified to fair independent bits",
+    "Quartic coefficient wording corrected for w=0",
+    "Rational-witness abstract explicitly conditional on rational input"
+  ]
+}

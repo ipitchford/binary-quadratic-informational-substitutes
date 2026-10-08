@@ -1,0 +1,11 @@
+{
+  "arithmetic": "exact integer coefficients in an 11-variable polynomial ring",
+  "reciprocal_chord_identity_residual_terms": 0,
+  "quartic_identity_before_row_reduction_terms": 8,
+  "quartic_identity_after_row_reduction_terms": 0,
+  "row_relations": [
+    "c0^2=v0*h0",
+    "c1^2=v1*h1"
+  ],
+  "passed": true
+}

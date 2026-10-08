@@ -1,0 +1,45 @@
+{
+  "scored_object": "Corrected release manuscript, not the earlier research notes",
+  "scale": "1\u20135 in half-points",
+  "track": "informal",
+  "scores": {
+    "Structure": {
+      "main_theorem_slimness": 4.5,
+      "complexity_distribution": 4.5,
+      "dependency_clarity": 5.0
+    },
+    "Signature quality": {
+      "statement_naturalness": 5.0,
+      "binder_economy": 4.5,
+      "generality": 5.0
+    },
+    "Step transparency": {
+      "tactic_transparency": 4.5,
+      "explicit_lemma_use": 4.5,
+      "broad_tactic_control": 5.0
+    },
+    "Reuse": {
+      "helper_usefulness": 5.0,
+      "reuse_potential": 5.0,
+      "no_dead_helpers": 4.5
+    },
+    "Human readability": {
+      "proof_readability": 4.5,
+      "mathlib_style": 4.5,
+      "maintainability": 4.5
+    }
+  },
+  "dimension_means": {
+    "Structure": 4.67,
+    "Signature quality": 4.83,
+    "Step transparency": 4.67,
+    "Reuse": 4.83,
+    "Human readability": 4.5
+  },
+  "overall_mean": 4.7,
+  "interpretation": "Expository and structural quality only; not correctness, novelty, publishability, probability or Research Excellence Framework ratings.",
+  "informal_mapping": {
+    "mathlib_style": "Conventional mathematical statement shape, names and locality; no Lean development exists."
+  },
+  "manuscript_sha256": "0039a54f5ed5c228dd885a5a98ac2701c5c8bc571d145fa40e6b0cdba0ea2549"
+}

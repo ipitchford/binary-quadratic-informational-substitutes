@@ -1,0 +1,87 @@
+[
+  {
+    "script": "audit_checks.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/28ef880bbcda/research/referee/reproduction/audit_checks.py"
+    ],
+    "cwd": "/workspace/scratch/28ef880bbcda/research/referee/reproduction",
+    "exit_status": 0,
+    "elapsed_seconds": 4.843186,
+    "stdout_file": "audit_checks.py.stdout.log",
+    "stderr_file": "audit_checks.py.stderr.log",
+    "output": {
+      "arithmetic": "Python fractions.Fraction only; no floating-point decisions",
+      "binary_kernel_comparisons": 12750,
+      "constructed_exact_negative_witnesses": 212,
+      "elapsed_seconds": 4.785,
+      "full_proof_claim": false,
+      "multi_output_kernel_comparisons": 48,
+      "named_examples_checked": 8,
+      "nonempty_joint_supports_checked": 255,
+      "orientations_checked": 510,
+      "scope": "Independent exact raw-score checks against the proved classifier",
+      "status": "PASS",
+      "strong_substitute_uniform_supports": 149
+    }
+  },
+  {
+    "script": "complements_checks.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/28ef880bbcda/research/referee/reproduction/complements_checks.py"
+    ],
+    "cwd": "/workspace/scratch/28ef880bbcda/research/referee/reproduction",
+    "exit_status": 0,
+    "elapsed_seconds": 4.114999,
+    "stdout_file": "complements_checks.py.stdout.log",
+    "stderr_file": "complements_checks.py.stderr.log",
+    "output": {
+      "all_nonempty_joint_support_patterns": 255,
+      "arithmetic": "Python fractions.Fraction, no numerical tolerances",
+      "binary_kernels_per_orientation": 25,
+      "classification_counts": {
+        "substitutes=False,complements=False": 24,
+        "substitutes=False,complements=True": 128,
+        "substitutes=True,complements=False": 72,
+        "substitutes=True,complements=True": 81
+      },
+      "fixed_example_count": 6,
+      "passed": true,
+      "random_seed": 20261008,
+      "random_weighted_tables": 50,
+      "raw_score_and_quadratic_identity_checks": 15250,
+      "scope": "Finite sanity checks; the universal guarantee comes from the analytic polynomial theorem.",
+      "strict_positive_gap_witnesses": 174,
+      "vertex_needed_example_verified": true,
+      "witness_construction_counts": {
+        "positive interior quadratic maximum": 132,
+        "positive left endpoint, moved inside using coefficient bound": 24,
+        "positive right endpoint, moved inside using coefficient bound": 18
+      }
+    }
+  },
+  {
+    "script": "polynomial_certificate.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/28ef880bbcda/research/referee/reproduction/polynomial_certificate.py"
+    ],
+    "cwd": "/workspace/scratch/28ef880bbcda/research/referee/reproduction",
+    "exit_status": 0,
+    "elapsed_seconds": 0.027017,
+    "stdout_file": "polynomial_certificate.py.stdout.log",
+    "stderr_file": "polynomial_certificate.py.stderr.log",
+    "output": {
+      "arithmetic": "exact integer coefficients in an 11-variable polynomial ring",
+      "reciprocal_chord_identity_residual_terms": 0,
+      "quartic_identity_before_row_reduction_terms": 8,
+      "quartic_identity_after_row_reduction_terms": 0,
+      "row_relations": [
+        "c0^2=v0*h0",
+        "c1^2=v1*h1"
+      ],
+      "passed": true
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "path": "output/evidence_press_binary_quadratic_v1_0_0/manuscript/binary-quadratic-informational-substitutes.md",
+  "sha256": "0039a54f5ed5c228dd885a5a98ac2701c5c8bc571d145fa40e6b0cdba0ea2549",
+  "size_bytes": 25854,
+  "previous_inspected_sha256": "abb679f4188372bb5a9ee39c4e7407ab15129642b8ca3be49056d0b8e3c9fa91",
+  "corrections": "Rational-input scope in abstract; explicit negative Brier loss normalisation; fair XOR bits; endpoint derivative derivation in Appendix A. Coefficient of q^4 specified instead of leading coefficient, covering w=0.",
+  "intermediate_inspected_sha256": "7e8007bbd955b8d32d391261858df67f89b6e8009b0b0eae9ba6a379afee03d6"
+}

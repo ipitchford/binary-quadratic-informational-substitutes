@@ -1,0 +1,791 @@
+{
+  "independent_additive": {
+    "directions": {
+      "X": {
+        "K0": "0",
+        "K1": "0",
+        "R": "0",
+        "T": "0",
+        "conditional_covariances": [
+          "1/8",
+          "1/8"
+        ],
+        "conditional_event_means": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_gains": [
+          "1/16",
+          "1/16"
+        ],
+        "conditional_other_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_other_variances": [
+          "1/4",
+          "1/4"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "1/2",
+        "delta_other": "0",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": false,
+        "passes": true,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "X",
+        "vertex_condition": true,
+        "vertex_numerator_4R_Q": null,
+        "vertex_q": null,
+        "w": "0"
+      },
+      "Y": {
+        "K0": "0",
+        "K1": "0",
+        "R": "0",
+        "T": "0",
+        "conditional_covariances": [
+          "1/8",
+          "1/8"
+        ],
+        "conditional_event_means": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_gains": [
+          "1/16",
+          "1/16"
+        ],
+        "conditional_other_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_other_variances": [
+          "1/4",
+          "1/4"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "1/2",
+        "delta_other": "0",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": false,
+        "passes": true,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "Y",
+        "vertex_condition": true,
+        "vertex_numerator_4R_Q": null,
+        "vertex_q": null,
+        "w": "0"
+      }
+    },
+    "probabilities": [
+      "1/4",
+      "1/8",
+      "1/8",
+      "0",
+      "0",
+      "1/8",
+      "1/8",
+      "1/4"
+    ],
+    "strong_complements": true,
+    "witnesses": []
+  },
+  "independent_xor": {
+    "directions": {
+      "X": {
+        "K0": "-1/4",
+        "K1": "-1/4",
+        "R": "0",
+        "T": "0",
+        "conditional_covariances": [
+          "1/4",
+          "-1/4"
+        ],
+        "conditional_event_means": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_gains": [
+          "1/4",
+          "1/4"
+        ],
+        "conditional_other_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_other_variances": [
+          "1/4",
+          "1/4"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "0",
+        "delta_other": "0",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": false,
+        "passes": true,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "X",
+        "vertex_condition": true,
+        "vertex_numerator_4R_Q": null,
+        "vertex_q": null,
+        "w": "0"
+      },
+      "Y": {
+        "K0": "-1/4",
+        "K1": "-1/4",
+        "R": "0",
+        "T": "0",
+        "conditional_covariances": [
+          "1/4",
+          "-1/4"
+        ],
+        "conditional_event_means": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_gains": [
+          "1/4",
+          "1/4"
+        ],
+        "conditional_other_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_other_variances": [
+          "1/4",
+          "1/4"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "0",
+        "delta_other": "0",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": false,
+        "passes": true,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "Y",
+        "vertex_condition": true,
+        "vertex_numerator_4R_Q": null,
+        "vertex_q": null,
+        "w": "0"
+      }
+    },
+    "probabilities": [
+      "1/4",
+      "0",
+      "0",
+      "1/4",
+      "0",
+      "1/4",
+      "1/4",
+      "0"
+    ],
+    "strong_complements": true,
+    "witnesses": []
+  },
+  "irrelevant_signals": {
+    "directions": {
+      "X": {
+        "K0": "0",
+        "K1": "0",
+        "R": "0",
+        "T": "0",
+        "conditional_covariances": [
+          "0",
+          "0"
+        ],
+        "conditional_event_means": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_gains": [
+          "0",
+          "0"
+        ],
+        "conditional_other_probabilities": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_other_variances": [
+          "3/16",
+          "3/16"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "0",
+        "delta_other": "1/2",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": false,
+        "passes": true,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "X",
+        "vertex_condition": true,
+        "vertex_numerator_4R_Q": null,
+        "vertex_q": null,
+        "w": "0"
+      },
+      "Y": {
+        "K0": "0",
+        "K1": "0",
+        "R": "0",
+        "T": "0",
+        "conditional_covariances": [
+          "0",
+          "0"
+        ],
+        "conditional_event_means": [
+          "1/2",
+          "1/2"
+        ],
+        "conditional_gains": [
+          "0",
+          "0"
+        ],
+        "conditional_other_probabilities": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_other_variances": [
+          "3/16",
+          "3/16"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "0",
+        "delta_other": "1/2",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": false,
+        "passes": true,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "Y",
+        "vertex_condition": true,
+        "vertex_numerator_4R_Q": null,
+        "vertex_q": null,
+        "w": "0"
+      }
+    },
+    "probabilities": [
+      "3/16",
+      "1/16",
+      "1/16",
+      "3/16",
+      "3/16",
+      "1/16",
+      "1/16",
+      "3/16"
+    ],
+    "strong_complements": true,
+    "witnesses": []
+  },
+  "perfect_copies": {
+    "directions": {
+      "X": {
+        "K0": "0",
+        "K1": "0",
+        "R": "1",
+        "T": "1",
+        "conditional_covariances": [
+          "0",
+          "0"
+        ],
+        "conditional_event_means": [
+          "0",
+          "1"
+        ],
+        "conditional_gains": [
+          "0",
+          "0"
+        ],
+        "conditional_other_probabilities": [
+          "0",
+          "1"
+        ],
+        "conditional_other_variances": [
+          "0",
+          "0"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "1",
+        "delta_other": "1",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": true,
+        "passes": false,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "X",
+        "vertex_condition": false,
+        "vertex_numerator_4R_Q": "1",
+        "vertex_q": "1/2",
+        "w": "1"
+      },
+      "Y": {
+        "K0": "0",
+        "K1": "0",
+        "R": "1",
+        "T": "1",
+        "conditional_covariances": [
+          "0",
+          "0"
+        ],
+        "conditional_event_means": [
+          "0",
+          "1"
+        ],
+        "conditional_gains": [
+          "0",
+          "0"
+        ],
+        "conditional_other_probabilities": [
+          "0",
+          "1"
+        ],
+        "conditional_other_variances": [
+          "0",
+          "0"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "1",
+        "delta_other": "1",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": true,
+        "passes": false,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "Y",
+        "vertex_condition": false,
+        "vertex_numerator_4R_Q": "1",
+        "vertex_q": "1/2",
+        "w": "1"
+      }
+    },
+    "probabilities": [
+      "1/2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/2"
+    ],
+    "strong_complements": false,
+    "witnesses": [
+      {
+        "coefficient_slope_bound": "3",
+        "construction": "positive interior quadratic maximum",
+        "gap": "1/4",
+        "kernel": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "mixed_report_probability": "1",
+        "posterior_of_mixed_report": "1/2",
+        "quadratic_at_mixed_posterior": "1/4",
+        "source": "X",
+        "values": {
+          "V_Z": "1/4",
+          "V_Z_other": "1/2",
+          "V_source": "1/2",
+          "V_source_other": "1/2"
+        }
+      },
+      {
+        "coefficient_slope_bound": "3",
+        "construction": "positive interior quadratic maximum",
+        "gap": "1/4",
+        "kernel": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "mixed_report_probability": "1",
+        "posterior_of_mixed_report": "1/2",
+        "quadratic_at_mixed_posterior": "1/4",
+        "source": "Y",
+        "values": {
+          "V_Z": "1/4",
+          "V_Z_other": "1/2",
+          "V_source": "1/2",
+          "V_source_other": "1/2"
+        }
+      }
+    ]
+  },
+  "positive_substitute_margins": {
+    "directions": {
+      "X": {
+        "K0": "27/1280",
+        "K1": "27/1280",
+        "R": "1/64",
+        "T": "1/64",
+        "conditional_covariances": [
+          "3/32",
+          "3/32"
+        ],
+        "conditional_event_means": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_gains": [
+          "3/80",
+          "3/80"
+        ],
+        "conditional_other_probabilities": [
+          "3/8",
+          "5/8"
+        ],
+        "conditional_other_variances": [
+          "15/64",
+          "15/64"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "1/2",
+        "delta_other": "1/4",
+        "endpoint_conditions": [
+          false,
+          false
+        ],
+        "interior_vertex": true,
+        "passes": false,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "X",
+        "vertex_condition": false,
+        "vertex_numerator_4R_Q": "1/640",
+        "vertex_q": "1/2",
+        "w": "1/8"
+      },
+      "Y": {
+        "K0": "27/1280",
+        "K1": "27/1280",
+        "R": "1/64",
+        "T": "1/64",
+        "conditional_covariances": [
+          "3/32",
+          "3/32"
+        ],
+        "conditional_event_means": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_gains": [
+          "3/80",
+          "3/80"
+        ],
+        "conditional_other_probabilities": [
+          "3/8",
+          "5/8"
+        ],
+        "conditional_other_variances": [
+          "15/64",
+          "15/64"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "1/2",
+        "delta_other": "1/4",
+        "endpoint_conditions": [
+          false,
+          false
+        ],
+        "interior_vertex": true,
+        "passes": false,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "Y",
+        "vertex_condition": false,
+        "vertex_numerator_4R_Q": "1/640",
+        "vertex_q": "1/2",
+        "w": "1/8"
+      }
+    },
+    "probabilities": [
+      "9/32",
+      "3/32",
+      "3/32",
+      "1/32",
+      "1/32",
+      "3/32",
+      "3/32",
+      "9/32"
+    ],
+    "strong_complements": false,
+    "witnesses": [
+      {
+        "coefficient_slope_bound": "3/64",
+        "construction": "positive interior quadratic maximum",
+        "gap": "1/40",
+        "kernel": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "mixed_report_probability": "1",
+        "posterior_of_mixed_report": "1/2",
+        "quadratic_at_mixed_posterior": "1/40",
+        "source": "X",
+        "values": {
+          "V_Z": "1/4",
+          "V_Z_other": "5/16",
+          "V_source": "5/16",
+          "V_source_other": "7/20"
+        }
+      },
+      {
+        "coefficient_slope_bound": "3/64",
+        "construction": "positive interior quadratic maximum",
+        "gap": "1/40",
+        "kernel": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "mixed_report_probability": "1",
+        "posterior_of_mixed_report": "1/2",
+        "quadratic_at_mixed_posterior": "1/40",
+        "source": "Y",
+        "values": {
+          "V_Z": "1/4",
+          "V_Z_other": "5/16",
+          "V_source": "5/16",
+          "V_source_other": "7/20"
+        }
+      }
+    ]
+  },
+  "weak_substitutes_only": {
+    "directions": {
+      "X": {
+        "K0": "0",
+        "K1": "0",
+        "R": "1/256",
+        "T": "1/256",
+        "conditional_covariances": [
+          "-3/32",
+          "-3/32"
+        ],
+        "conditional_event_means": [
+          "7/16",
+          "5/16"
+        ],
+        "conditional_gains": [
+          "3/64",
+          "3/64"
+        ],
+        "conditional_other_probabilities": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_other_variances": [
+          "3/16",
+          "3/16"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "-1/8",
+        "delta_other": "1/2",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": true,
+        "passes": false,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "X",
+        "vertex_condition": false,
+        "vertex_numerator_4R_Q": "1/65536",
+        "vertex_q": "1/2",
+        "w": "-1/16"
+      },
+      "Y": {
+        "K0": "-45/4096",
+        "K1": "-45/4096",
+        "R": "49/1024",
+        "T": "49/1024",
+        "conditional_covariances": [
+          "3/128",
+          "3/128"
+        ],
+        "conditional_event_means": [
+          "19/32",
+          "5/32"
+        ],
+        "conditional_gains": [
+          "3/1024",
+          "3/1024"
+        ],
+        "conditional_other_probabilities": [
+          "1/4",
+          "3/4"
+        ],
+        "conditional_other_variances": [
+          "3/16",
+          "3/16"
+        ],
+        "degenerate_other": false,
+        "degenerate_source": false,
+        "delta_event": "-7/16",
+        "delta_other": "1/2",
+        "endpoint_conditions": [
+          true,
+          true
+        ],
+        "interior_vertex": true,
+        "passes": false,
+        "priors": [
+          "1/2",
+          "1/2"
+        ],
+        "source": "Y",
+        "vertex_condition": false,
+        "vertex_numerator_4R_Q": "49/262144",
+        "vertex_q": "1/2",
+        "w": "-7/32"
+      }
+    },
+    "probabilities": [
+      "21/128",
+      "15/128",
+      "5/128",
+      "39/128",
+      "27/128",
+      "1/128",
+      "11/128",
+      "9/128"
+    ],
+    "strong_complements": false,
+    "witnesses": [
+      {
+        "coefficient_slope_bound": "3/256",
+        "construction": "positive interior quadratic maximum",
+        "gap": "1/1024",
+        "kernel": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "mixed_report_probability": "1",
+        "posterior_of_mixed_report": "1/2",
+        "quadratic_at_mixed_posterior": "1/1024",
+        "source": "X",
+        "values": {
+          "V_Z": "9/64",
+          "V_Z_other": "193/1024",
+          "V_source": "37/256",
+          "V_source_other": "49/256"
+        }
+      },
+      {
+        "coefficient_slope_bound": "147/1024",
+        "construction": "positive interior quadratic maximum",
+        "gap": "1/1024",
+        "kernel": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "mixed_report_probability": "1",
+        "posterior_of_mixed_report": "1/2",
+        "quadratic_at_mixed_posterior": "1/1024",
+        "source": "Y",
+        "values": {
+          "V_Z": "9/64",
+          "V_Z_other": "37/256",
+          "V_source": "193/1024",
+          "V_source_other": "49/256"
+        }
+      }
+    ]
+  }
+}

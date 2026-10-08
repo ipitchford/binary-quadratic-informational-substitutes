@@ -1,0 +1,24 @@
+{
+  "all_nonempty_joint_support_patterns": 255,
+  "arithmetic": "Python fractions.Fraction, no numerical tolerances",
+  "binary_kernels_per_orientation": 25,
+  "classification_counts": {
+    "substitutes=False,complements=False": 24,
+    "substitutes=False,complements=True": 128,
+    "substitutes=True,complements=False": 72,
+    "substitutes=True,complements=True": 81
+  },
+  "fixed_example_count": 6,
+  "passed": true,
+  "random_seed": 20261008,
+  "random_weighted_tables": 50,
+  "raw_score_and_quadratic_identity_checks": 15250,
+  "scope": "Finite sanity checks; the universal guarantee comes from the analytic polynomial theorem.",
+  "strict_positive_gap_witnesses": 174,
+  "vertex_needed_example_verified": true,
+  "witness_construction_counts": {
+    "positive interior quadratic maximum": 132,
+    "positive left endpoint, moved inside using coefficient bound": 24,
+    "positive right endpoint, moved inside using coefficient bound": 18
+  }
+}
